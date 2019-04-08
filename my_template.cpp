@@ -33,6 +33,7 @@ void solve();
 int main()
 {
 	fast_io();
+	freopen64("input.txt", "r", stdin);
 	time__("Runtime") {
 	    solve();
 	}
